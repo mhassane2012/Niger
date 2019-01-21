@@ -25,7 +25,7 @@
 	/**
     * Constructor of the class
     */
-    public function __construct($host = '10.48.11.39', $user = 'root2', $pass = '123456', $db = 'identificationv2')
+     public function __construct($host = 'localhost', $user = 'root', $pass = '', $db = 'adventureworks')
     {
       $this->host     = $host;
       $this->db         = $db;
